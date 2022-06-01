@@ -20,8 +20,8 @@ describe("Pizza Form", () => {
   });
 
   it("Can be submitted", () => {
-    nameInput().type("Darth Vader");
+    nameInput().type("No Thanks");
     submitButton().click();
-    submittedPizza().contains("Darth Vader");
+    submittedPizza().contains("No Thanks");
   });
 });
