@@ -1,13 +1,34 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+#order-pizza {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  color: red;
+  font-size: 10rem;
+  text-decoration: none;
+}
+#order-pizza:hover {
+  color: blue;
+  text-decoration: underline;
+}
+#pizza-form {
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2rem;
 }
